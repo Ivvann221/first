@@ -10,14 +10,47 @@
     <link rel="stylesheet" href="style/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1>text</h1>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                    Launch demo modal
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="cal-12"></div>
+                                </div>
+                            </div>
+                        <form class="callForm" post="/create_new_post">
+                            <legend>передзвони</legend>
+                            <input placeholder="Name" type="text">
+                            <input placeholder="nember" type="text" required>
+                            <button type="submit" class="btn btn-secondary">Замовити</button>
+                        </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

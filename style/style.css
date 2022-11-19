@@ -1,0 +1,21 @@
+.callForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.callForm legend{
+    text-align: center;
+}
+.callForm input{
+  width: 95%;
+    padding: 15px;
+    margin: 15px;
+    background-color: bisque;
+}
+
+.btn{
+    margin-bottom: 10px;
+}
+.callForm input::placeholder{
+    color:rgb(56, 25, 25);
+}
